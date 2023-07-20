@@ -1,5 +1,5 @@
-mysql计算年差值
+mysql计算差值年
 SELECT TIMESTAMPDIFF(YEAR, l.`start`, CURDATE()) AS age FROM Lzgtime l;
 
-mysql计算日差值
+mysql计算差值日
 SELECT START,END,DATEDIFF(l.`start`, l.`end`) AS day_diff FROM Lzgtime l;
